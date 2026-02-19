@@ -16,6 +16,25 @@ body{
   background: linear-gradient(to bottom, #ff6d00, #d00000);
 
 }
+
+#titulo {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font: size 40px;
+}
+
+#texto {
+   position: absolute;
+  left: 41%;
+  top: 55%;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font: size 20px;
+}
+
 .titulo{
   position:relative;            
   text-align:center;   
@@ -36,7 +55,7 @@ body{
 }
 .fondo:hover{
   /*position: initial;*/
-  transform: translate(200px);
+  transform: translate(300px);
 }
 
 .nube{
