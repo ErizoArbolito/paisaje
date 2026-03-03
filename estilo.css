@@ -58,6 +58,16 @@ body{
   transform: translate(300px);
 }
 
+#boton {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 100px;
+  background-color:#100143;
+  left: 0px;
+  top: 0px;
+}
+
 .nube{
   position:absolute;
   width:130px;
