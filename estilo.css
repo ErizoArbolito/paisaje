@@ -17,6 +17,21 @@ body{
 
 }
 
+#historia {
+  position: absolute;
+  left: 28%;
+  top: 85%;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 30px;
+}
+
+#image {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+
 #titulo {
   position: absolute;
   left: 40%;
