@@ -17,6 +17,27 @@ body{
 
 }
 
+.muerte {
+  display: flex;
+  gap: 300%;
+  margin: 20%;
+}
+
+#yacasi {
+  position: absolute;
+  color: rgb(240, 253, 49);
+  font-family: monospace;
+  font-size: 30px;
+  left: 100%;
+}
+
+#pescado {
+  position: absolute;
+  left: 80%;
+  bottom: 0%;
+  width: 15%;
+}
+
 #historia {
   position: absolute;
   left: 28%;

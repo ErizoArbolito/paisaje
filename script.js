@@ -4,7 +4,8 @@ const titulo = document.getElementById("titulo");
 const texto = document.getElementById("texto")
 const boton = document.getElementById("boton")
 const image = document.getElementById("image")
-const image = document.getElementById("historia")
+const historia = document.getElementById("historia")
+const pescado = document.getElementById("pescado")
 
 let textoInicial = true; //(variable tipo booleano - dos valores posiblws)
 let iTexto = 0;
@@ -33,6 +34,12 @@ boton.addEventListener("click", () => {
  image.hidden = !image.hidden;
 })
 
+
 boton.addEventListener("click", () => {
  historia.hidden = !historia.hidden;
 })
+
+boton.addEventListener("click", () => {
+ pescado.hidden = !pescado.hidden;
+})
+
