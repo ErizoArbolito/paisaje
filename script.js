@@ -10,6 +10,10 @@ const pescado = document.getElementById("pescado")
 let textoInicial = true; //(variable tipo booleano - dos valores posiblws)
 let iTexto = 0;
 
+pescado.hidden = true;
+image.hidden = true;
+historia.hidden = true;
+
 const textos = ["Para iniciar", "tienes que", "hacer", "click allá", "↖"];
 console.log(textos[0]);
 
@@ -42,4 +46,3 @@ boton.addEventListener("click", () => {
 boton.addEventListener("click", () => {
  pescado.hidden = !pescado.hidden;
 })
-
